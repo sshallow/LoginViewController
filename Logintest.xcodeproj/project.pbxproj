@@ -13,6 +13,37 @@
 		18D315BC22B69180003EE1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D315BB22B69180003EE1C6 /* Assets.xcassets */; };
 		18D315BF22B69180003EE1C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D315BD22B69180003EE1C6 /* LaunchScreen.storyboard */; };
 		18D315C222B69180003EE1C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D315C122B69180003EE1C6 /* main.m */; };
+		18D315CE22B691A7003EE1C6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D315C822B691A7003EE1C6 /* LoginViewController.m */; };
+		18D315CF22B691A7003EE1C6 /* SMSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D315CB22B691A7003EE1C6 /* SMSLoginViewController.m */; };
+		18D315D022B691A7003EE1C6 /* ChangePswViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D315CD22B691A7003EE1C6 /* ChangePswViewController.m */; };
+		18D3170622B69445003EE1C6 /* LoginTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3170522B69445003EE1C6 /* LoginTextInput.m */; };
+		18D3170922B6945B003EE1C6 /* LoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3170722B6945B003EE1C6 /* LoginButton.m */; };
+		18D3170C22B69477003EE1C6 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3170A22B69476003EE1C6 /* NSString+MD5.m */; };
+		18D3172822B695DA003EE1C6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3170F22B695DA003EE1C6 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		18D3172922B695DA003EE1C6 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3171822B695DA003EE1C6 /* ViewController+MASAdditions.m */; };
+		18D3172A22B695DA003EE1C6 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3171C22B695DA003EE1C6 /* MASCompositeConstraint.m */; };
+		18D3172B22B695DA003EE1C6 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3171D22B695DA003EE1C6 /* MASConstraintMaker.m */; };
+		18D3172C22B695DA003EE1C6 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3171E22B695DA003EE1C6 /* MASLayoutConstraint.m */; };
+		18D3172D22B695DA003EE1C6 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3171F22B695DA003EE1C6 /* NSArray+MASAdditions.m */; };
+		18D3172E22B695DA003EE1C6 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3172022B695DA003EE1C6 /* View+MASAdditions.m */; };
+		18D3172F22B695DA003EE1C6 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3172322B695DA003EE1C6 /* MASConstraint.m */; };
+		18D3173022B695DA003EE1C6 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3172522B695DA003EE1C6 /* MASViewConstraint.m */; };
+		18D3173122B695DA003EE1C6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3172622B695DA003EE1C6 /* MASViewAttribute.m */; };
+		18D3173522B69638003EE1C6 /* ThirdPartLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3173322B69638003EE1C6 /* ThirdPartLogin.m */; };
+		18D3174522B6965B003EE1C6 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3173B22B6965B003EE1C6 /* AFURLResponseSerialization.m */; };
+		18D3174622B6965B003EE1C6 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3173C22B6965B003EE1C6 /* AFHTTPSessionManager.m */; };
+		18D3174722B6965B003EE1C6 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3173E22B6965B003EE1C6 /* AFURLSessionManager.m */; };
+		18D3174822B6965B003EE1C6 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3173F22B6965B003EE1C6 /* AFURLRequestSerialization.m */; };
+		18D3174922B6965B003EE1C6 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3174122B6965B003EE1C6 /* AFNetworkReachabilityManager.m */; };
+		18D3174A22B6965B003EE1C6 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3174222B6965B003EE1C6 /* AFSecurityPolicy.m */; };
+		18D3174D22B69670003EE1C6 /* UIColor+gradually.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3174B22B69670003EE1C6 /* UIColor+gradually.m */; };
+		18D3175022B69797003EE1C6 /* UIViewController+alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3174F22B69797003EE1C6 /* UIViewController+alert.m */; };
+		18D3175C22B69826003EE1C6 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3175222B69826003EE1C6 /* SVRadialGradientLayer.m */; };
+		18D3175D22B69826003EE1C6 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3175522B69826003EE1C6 /* SVProgressAnimatedView.m */; };
+		18D3175E22B69826003EE1C6 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3175822B69826003EE1C6 /* SVProgressHUD.m */; };
+		18D3175F22B69826003EE1C6 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3175922B69826003EE1C6 /* SVIndefiniteAnimatedView.m */; };
+		18D3176022B69826003EE1C6 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18D3175A22B69826003EE1C6 /* SVProgressHUD.bundle */; };
+		18D3176422B6AA27003EE1C6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3176322B6AA27003EE1C6 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +57,75 @@
 		18D315BE22B69180003EE1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D315C022B69180003EE1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D315C122B69180003EE1C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D315C822B691A7003EE1C6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		18D315C922B691A7003EE1C6 /* ChangePswViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePswViewController.h; sourceTree = "<group>"; };
+		18D315CA22B691A7003EE1C6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		18D315CB22B691A7003EE1C6 /* SMSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSLoginViewController.m; sourceTree = "<group>"; };
+		18D315CC22B691A7003EE1C6 /* SMSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSLoginViewController.h; sourceTree = "<group>"; };
+		18D315CD22B691A7003EE1C6 /* ChangePswViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePswViewController.m; sourceTree = "<group>"; };
+		18D3170422B69445003EE1C6 /* LoginTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTextInput.h; sourceTree = "<group>"; };
+		18D3170522B69445003EE1C6 /* LoginTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTextInput.m; sourceTree = "<group>"; };
+		18D3170722B6945B003EE1C6 /* LoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginButton.m; sourceTree = "<group>"; };
+		18D3170822B6945B003EE1C6 /* LoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginButton.h; sourceTree = "<group>"; };
+		18D3170A22B69476003EE1C6 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		18D3170B22B69476003EE1C6 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		18D3170E22B695DA003EE1C6 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		18D3170F22B695DA003EE1C6 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		18D3171022B695DA003EE1C6 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		18D3171122B695DA003EE1C6 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		18D3171222B695DA003EE1C6 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		18D3171322B695DA003EE1C6 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		18D3171422B695DA003EE1C6 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		18D3171522B695DA003EE1C6 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		18D3171622B695DA003EE1C6 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		18D3171722B695DA003EE1C6 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		18D3171822B695DA003EE1C6 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		18D3171922B695DA003EE1C6 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		18D3171A22B695DA003EE1C6 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		18D3171B22B695DA003EE1C6 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		18D3171C22B695DA003EE1C6 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		18D3171D22B695DA003EE1C6 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		18D3171E22B695DA003EE1C6 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		18D3171F22B695DA003EE1C6 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		18D3172022B695DA003EE1C6 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		18D3172122B695DA003EE1C6 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		18D3172222B695DA003EE1C6 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		18D3172322B695DA003EE1C6 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		18D3172422B695DA003EE1C6 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		18D3172522B695DA003EE1C6 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		18D3172622B695DA003EE1C6 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		18D3173322B69638003EE1C6 /* ThirdPartLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdPartLogin.m; sourceTree = "<group>"; };
+		18D3173422B69638003EE1C6 /* ThirdPartLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPartLogin.h; sourceTree = "<group>"; };
+		18D3173722B6965B003EE1C6 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		18D3173822B6965B003EE1C6 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		18D3173922B6965B003EE1C6 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		18D3173A22B6965B003EE1C6 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		18D3173B22B6965B003EE1C6 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		18D3173C22B6965B003EE1C6 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		18D3173D22B6965B003EE1C6 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		18D3173E22B6965B003EE1C6 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		18D3173F22B6965B003EE1C6 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		18D3174022B6965B003EE1C6 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		18D3174122B6965B003EE1C6 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		18D3174222B6965B003EE1C6 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		18D3174322B6965B003EE1C6 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		18D3174422B6965B003EE1C6 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		18D3174B22B69670003EE1C6 /* UIColor+gradually.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+gradually.m"; sourceTree = "<group>"; };
+		18D3174C22B69670003EE1C6 /* UIColor+gradually.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+gradually.h"; sourceTree = "<group>"; };
+		18D3174E22B69797003EE1C6 /* UIViewController+alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+alert.h"; sourceTree = "<group>"; };
+		18D3174F22B69797003EE1C6 /* UIViewController+alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+alert.m"; sourceTree = "<group>"; };
+		18D3175222B69826003EE1C6 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		18D3175322B69826003EE1C6 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		18D3175422B69826003EE1C6 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		18D3175522B69826003EE1C6 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		18D3175622B69826003EE1C6 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		18D3175722B69826003EE1C6 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		18D3175822B69826003EE1C6 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		18D3175922B69826003EE1C6 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		18D3175A22B69826003EE1C6 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		18D3175B22B69826003EE1C6 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		18D3176222B6AA27003EE1C6 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		18D3176322B6AA27003EE1C6 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +158,32 @@
 		18D315B122B6917F003EE1C6 /* Logintest */ = {
 			isa = PBXGroup;
 			children = (
+				18D3175122B69826003EE1C6 /* SVProgressHUD */,
+				18D3173622B6965B003EE1C6 /* AFNetworking */,
+				18D3170D22B695DA003EE1C6 /* Masonry */,
 				18D315B222B6917F003EE1C6 /* AppDelegate.h */,
 				18D315B322B6917F003EE1C6 /* AppDelegate.m */,
 				18D315B522B6917F003EE1C6 /* ViewController.h */,
 				18D315B622B6917F003EE1C6 /* ViewController.m */,
+				18D315C922B691A7003EE1C6 /* ChangePswViewController.h */,
+				18D315CD22B691A7003EE1C6 /* ChangePswViewController.m */,
+				18D315CA22B691A7003EE1C6 /* LoginViewController.h */,
+				18D315C822B691A7003EE1C6 /* LoginViewController.m */,
+				18D315CC22B691A7003EE1C6 /* SMSLoginViewController.h */,
+				18D315CB22B691A7003EE1C6 /* SMSLoginViewController.m */,
+				18D3170422B69445003EE1C6 /* LoginTextInput.h */,
+				18D3170522B69445003EE1C6 /* LoginTextInput.m */,
+				18D3170822B6945B003EE1C6 /* LoginButton.h */,
+				18D3170722B6945B003EE1C6 /* LoginButton.m */,
+				18D3173422B69638003EE1C6 /* ThirdPartLogin.h */,
+				18D3173322B69638003EE1C6 /* ThirdPartLogin.m */,
+				18D3170B22B69476003EE1C6 /* NSString+MD5.h */,
+				18D3170A22B69476003EE1C6 /* NSString+MD5.m */,
+				18D3174C22B69670003EE1C6 /* UIColor+gradually.h */,
+				18D3174B22B69670003EE1C6 /* UIColor+gradually.m */,
+				18D3174E22B69797003EE1C6 /* UIViewController+alert.h */,
+				18D3174F22B69797003EE1C6 /* UIViewController+alert.m */,
+				18D3176122B6A95A003EE1C6 /* NewLogin */,
 				18D315B822B6917F003EE1C6 /* Main.storyboard */,
 				18D315BB22B69180003EE1C6 /* Assets.xcassets */,
 				18D315BD22B69180003EE1C6 /* LaunchScreen.storyboard */,
@@ -69,6 +191,85 @@
 				18D315C122B69180003EE1C6 /* main.m */,
 			);
 			path = Logintest;
+			sourceTree = "<group>";
+		};
+		18D3170D22B695DA003EE1C6 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				18D3170E22B695DA003EE1C6 /* MASCompositeConstraint.h */,
+				18D3170F22B695DA003EE1C6 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				18D3171022B695DA003EE1C6 /* MASConstraint+Private.h */,
+				18D3171122B695DA003EE1C6 /* MASLayoutConstraint.h */,
+				18D3171222B695DA003EE1C6 /* NSArray+MASShorthandAdditions.h */,
+				18D3171322B695DA003EE1C6 /* MASConstraintMaker.h */,
+				18D3171422B695DA003EE1C6 /* View+MASAdditions.h */,
+				18D3171522B695DA003EE1C6 /* NSArray+MASAdditions.h */,
+				18D3171622B695DA003EE1C6 /* MASUtilities.h */,
+				18D3171722B695DA003EE1C6 /* MASViewAttribute.h */,
+				18D3171822B695DA003EE1C6 /* ViewController+MASAdditions.m */,
+				18D3171922B695DA003EE1C6 /* MASViewConstraint.h */,
+				18D3171A22B695DA003EE1C6 /* MASConstraint.h */,
+				18D3171B22B695DA003EE1C6 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				18D3171C22B695DA003EE1C6 /* MASCompositeConstraint.m */,
+				18D3171D22B695DA003EE1C6 /* MASConstraintMaker.m */,
+				18D3171E22B695DA003EE1C6 /* MASLayoutConstraint.m */,
+				18D3171F22B695DA003EE1C6 /* NSArray+MASAdditions.m */,
+				18D3172022B695DA003EE1C6 /* View+MASAdditions.m */,
+				18D3172122B695DA003EE1C6 /* View+MASShorthandAdditions.h */,
+				18D3172222B695DA003EE1C6 /* Masonry.h */,
+				18D3172322B695DA003EE1C6 /* MASConstraint.m */,
+				18D3172422B695DA003EE1C6 /* ViewController+MASAdditions.h */,
+				18D3172522B695DA003EE1C6 /* MASViewConstraint.m */,
+				18D3172622B695DA003EE1C6 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		18D3173622B6965B003EE1C6 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				18D3173722B6965B003EE1C6 /* AFSecurityPolicy.h */,
+				18D3173822B6965B003EE1C6 /* AFNetworkReachabilityManager.h */,
+				18D3173922B6965B003EE1C6 /* AFURLSessionManager.h */,
+				18D3173A22B6965B003EE1C6 /* AFURLRequestSerialization.h */,
+				18D3173B22B6965B003EE1C6 /* AFURLResponseSerialization.m */,
+				18D3173C22B6965B003EE1C6 /* AFHTTPSessionManager.m */,
+				18D3173D22B6965B003EE1C6 /* AFURLResponseSerialization.h */,
+				18D3173E22B6965B003EE1C6 /* AFURLSessionManager.m */,
+				18D3173F22B6965B003EE1C6 /* AFURLRequestSerialization.m */,
+				18D3174022B6965B003EE1C6 /* AFNetworking.h */,
+				18D3174122B6965B003EE1C6 /* AFNetworkReachabilityManager.m */,
+				18D3174222B6965B003EE1C6 /* AFSecurityPolicy.m */,
+				18D3174322B6965B003EE1C6 /* AFCompatibilityMacros.h */,
+				18D3174422B6965B003EE1C6 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		18D3175122B69826003EE1C6 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18D3175222B69826003EE1C6 /* SVRadialGradientLayer.m */,
+				18D3175322B69826003EE1C6 /* SVIndefiniteAnimatedView.h */,
+				18D3175422B69826003EE1C6 /* SVProgressHUD.h */,
+				18D3175522B69826003EE1C6 /* SVProgressAnimatedView.m */,
+				18D3175622B69826003EE1C6 /* SVProgressHUD-Prefix.pch */,
+				18D3175722B69826003EE1C6 /* SVRadialGradientLayer.h */,
+				18D3175822B69826003EE1C6 /* SVProgressHUD.m */,
+				18D3175922B69826003EE1C6 /* SVIndefiniteAnimatedView.m */,
+				18D3175A22B69826003EE1C6 /* SVProgressHUD.bundle */,
+				18D3175B22B69826003EE1C6 /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		18D3176122B6A95A003EE1C6 /* NewLogin */ = {
+			isa = PBXGroup;
+			children = (
+				18D3176222B6AA27003EE1C6 /* LoginViewController.h */,
+				18D3176322B6AA27003EE1C6 /* LoginViewController.m */,
+			);
+			path = NewLogin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +332,7 @@
 				18D315BF22B69180003EE1C6 /* LaunchScreen.storyboard in Resources */,
 				18D315BC22B69180003EE1C6 /* Assets.xcassets in Resources */,
 				18D315BA22B6917F003EE1C6 /* Main.storyboard in Resources */,
+				18D3176022B69826003EE1C6 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +343,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D3170622B69445003EE1C6 /* LoginTextInput.m in Sources */,
+				18D315CE22B691A7003EE1C6 /* LoginViewController.m in Sources */,
+				18D3172D22B695DA003EE1C6 /* NSArray+MASAdditions.m in Sources */,
+				18D315D022B691A7003EE1C6 /* ChangePswViewController.m in Sources */,
+				18D3172E22B695DA003EE1C6 /* View+MASAdditions.m in Sources */,
+				18D3174622B6965B003EE1C6 /* AFHTTPSessionManager.m in Sources */,
+				18D3172822B695DA003EE1C6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				18D3172A22B695DA003EE1C6 /* MASCompositeConstraint.m in Sources */,
 				18D315B722B6917F003EE1C6 /* ViewController.m in Sources */,
+				18D3172922B695DA003EE1C6 /* ViewController+MASAdditions.m in Sources */,
+				18D3173122B695DA003EE1C6 /* MASViewAttribute.m in Sources */,
+				18D3175D22B69826003EE1C6 /* SVProgressAnimatedView.m in Sources */,
+				18D3175022B69797003EE1C6 /* UIViewController+alert.m in Sources */,
+				18D3173522B69638003EE1C6 /* ThirdPartLogin.m in Sources */,
+				18D3174922B6965B003EE1C6 /* AFNetworkReachabilityManager.m in Sources */,
+				18D3173022B695DA003EE1C6 /* MASViewConstraint.m in Sources */,
+				18D315CF22B691A7003EE1C6 /* SMSLoginViewController.m in Sources */,
+				18D3172B22B695DA003EE1C6 /* MASConstraintMaker.m in Sources */,
+				18D3174822B6965B003EE1C6 /* AFURLRequestSerialization.m in Sources */,
 				18D315C222B69180003EE1C6 /* main.m in Sources */,
+				18D3176422B6AA27003EE1C6 /* LoginViewController.m in Sources */,
+				18D3172C22B695DA003EE1C6 /* MASLayoutConstraint.m in Sources */,
+				18D3170C22B69477003EE1C6 /* NSString+MD5.m in Sources */,
+				18D3170922B6945B003EE1C6 /* LoginButton.m in Sources */,
+				18D3172F22B695DA003EE1C6 /* MASConstraint.m in Sources */,
+				18D3174A22B6965B003EE1C6 /* AFSecurityPolicy.m in Sources */,
+				18D3175C22B69826003EE1C6 /* SVRadialGradientLayer.m in Sources */,
+				18D3174522B6965B003EE1C6 /* AFURLResponseSerialization.m in Sources */,
+				18D3175F22B69826003EE1C6 /* SVIndefiniteAnimatedView.m in Sources */,
 				18D315B422B6917F003EE1C6 /* AppDelegate.m in Sources */,
+				18D3174D22B69670003EE1C6 /* UIColor+gradually.m in Sources */,
+				18D3175E22B69826003EE1C6 /* SVProgressHUD.m in Sources */,
+				18D3174722B6965B003EE1C6 /* AFURLSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G26M2FBHAB;
 				INFOPLIST_FILE = Logintest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +526,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Anti-wolf.Logintest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +535,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G26M2FBHAB;
 				INFOPLIST_FILE = Logintest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,7 +543,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Anti-wolf.Logintest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
